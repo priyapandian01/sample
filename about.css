@@ -1,0 +1,48 @@
+.about_me img
+{
+	height: 500px;
+	width: 400px;
+	right:300;
+	top:50;
+left:100;
+position:absolute;
+justify-content:center;
+overflow:hidden;
+display:flex;
+box-shadow: 20px 20px 20px black ;
+border-radius:90%;
+
+}
+.about_content h5 {
+	right:500;
+	top:200;
+	color:yellow;
+	top:200;
+left:600;
+position:absolute;
+font-size:20px;
+align-items: center;
+transform: translate(50%,50%);
+}
+.about_content h1 {
+	right:500;
+	top:150;
+	color:white;
+	top:150;
+left:600;
+position:absolute;
+font-size:40px;
+align-items: center;
+transform: translate(50%,50%);
+}
+.about_content p {
+	right:500;
+	top:150;
+	color:yellow;
+	top:300;
+left:600;
+position:absolute;
+font-size:20px;
+align-items: center;
+transform: translate(50%,50%);
+}

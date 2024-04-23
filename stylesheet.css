@@ -1,0 +1,145 @@
+*{
+padding:0;
+margin:0;
+font-family:sans-seriff;
+box-sizing:border-box;
+}
+
+.hero
+{
+height: 100vh;
+width: 100%;
+background-image:url(../documents_mca/priya.jpg);
+background-size: cover;
+background-position: center;
+}
+
+nav
+{
+display:inline-block;
+
+display: flex;
+align-items: center;
+padding-left: 10%;
+padding-right: 10%;
+position: absolute;
+}
+nav ul{
+display: flex;
+margin-top:"-4%";
+
+
+}
+nav ul li{
+	display:inline-block;
+	padding: 10px 16px;
+	text-align:right-side;
+	
+	
+	
+
+}
+
+
+.name{
+	color: white;
+	font-size:30px;
+	justify-content:space-between;
+	width:86%;
+	display:flex;
+	
+	
+}
+
+nav ul li a{
+	color:white;
+	font-weight:bold;
+	text-decoration:none;
+}
+nav ul li a:hover
+{
+	background-color:red;
+	
+}
+
+.button{
+	
+	background-color:red;
+	color: white;
+	font-weight: bold;
+	font-size:15px;
+	text-decoration:none;
+	border-radius: 40px;
+
+}
+.subscribe{
+bottom:200;
+left:-15;
+position:absolute;
+transform: translate(50%,50%);	
+}
+.content{
+top:250;
+left:50;
+position:absolute;
+font-size:20px;
+align-items: center;
+transform: translate(50%,50%);
+
+
+}
+	
+h3{
+	
+	color:white;
+	font-size: 20px;
+	margin-bottom:40px;
+}
+h2{
+	color:white;
+	font-size: 20px;
+	
+}
+h4{
+	color:white;
+	font-size: 15px;
+	
+}
+.subscribe form
+{
+	
+	position: relative;
+}
+.subscribe form input:first-child{
+	display:inline-block;
+	width: 100%;
+	padding: 15px 120px 13px 14px;
+	border: 3px solid red;
+	border-radius:40px;
+	
+}
+.subscribe form input:last-child{
+	
+	display: inline-block;
+	padding: 10px 30px;
+	border: none;
+	background-color:red;
+	color:white;
+	top:7px;
+	right:7px;
+	border-radius:40px;
+	position:absolute;
+	box-shadow: 0px 0px 10px black;
+}
+
+.about_me
+{
+	width:100%;
+	padding: 100px 0px;
+	
+}	
+
+.main{
+	display:flex;
+}
+	
